@@ -1,3 +1,6 @@
+# Make zeitwerk loader happy
+DelayedJobDecorator = 'DelayedJobDecorator'
+
 Delayed::Job.class_eval do
 
   def state
